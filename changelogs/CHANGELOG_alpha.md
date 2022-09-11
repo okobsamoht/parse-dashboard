@@ -1,3 +1,137 @@
+# [4.2.0-alpha.8](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.7...4.2.0-alpha.8) (2022-09-08)
+
+
+### Features
+
+* add option to auto-sort columns alphabetically ([#2252](https://github.com/ParsePlatform/parse-dashboard/issues/2252)) ([2b7f20f](https://github.com/ParsePlatform/parse-dashboard/commit/2b7f20fcc088f74915b50ec1219038ba9b233c27))
+
+# [4.2.0-alpha.7](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.6...4.2.0-alpha.7) (2022-09-08)
+
+
+### Bug Fixes
+
+* dashboard contains invalid html for top-level document ([#2254](https://github.com/ParsePlatform/parse-dashboard/issues/2254)) ([bbce857](https://github.com/ParsePlatform/parse-dashboard/commit/bbce8579ef634bf8e6800f3a6ab8cd650e971695))
+
+# [4.2.0-alpha.6](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.5...4.2.0-alpha.6) (2022-09-08)
+
+
+### Features
+
+* apply filter in data browser by pressing "Enter" key ([#2256](https://github.com/ParsePlatform/parse-dashboard/issues/2256)) ([bc4f9eb](https://github.com/ParsePlatform/parse-dashboard/commit/bc4f9eb9cad9eb8e362dca20bf932cb3d1e6721c))
+
+# [4.2.0-alpha.5](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.4...4.2.0-alpha.5) (2022-09-06)
+
+
+### Bug Fixes
+
+* login fails with error `req.session.regenerate is not a function` ([#2197](https://github.com/ParsePlatform/parse-dashboard/issues/2197)) [skip release] ([014d9c1](https://github.com/ParsePlatform/parse-dashboard/commit/014d9c15b0c4efad8b0762e5a49f6a740ead5edb))
+* unnecessary count operations in Data Browser ([#2250](https://github.com/ParsePlatform/parse-dashboard/issues/2250)) ([bfc1684](https://github.com/ParsePlatform/parse-dashboard/commit/bfc1684375b7c2120e2a4ae566e5b3c38c0ca110))
+
+# [4.2.0-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.3...4.2.0-alpha.4) (2022-07-20)
+
+
+### Bug Fixes
+
+* security upgrade terser from 5.10.0 to 5.14.2 ([#2222](https://github.com/ParsePlatform/parse-dashboard/issues/2222)) ([645cfdd](https://github.com/ParsePlatform/parse-dashboard/commit/645cfdd5939aca429b988e7a7c1a1b6a68230810))
+
+# [4.2.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.2...4.2.0-alpha.3) (2022-07-15)
+
+
+### Bug Fixes
+
+* button text "Show all" in column menu is truncated ([#2208](https://github.com/ParsePlatform/parse-dashboard/issues/2208)) ([b89d044](https://github.com/ParsePlatform/parse-dashboard/commit/b89d044a504c6748932907f075819a13aa08fb51))
+
+# [4.2.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.1...4.2.0-alpha.2) (2022-07-11)
+
+
+### Features
+
+* improve button labels to be more concise in text ([#2207](https://github.com/ParsePlatform/parse-dashboard/issues/2207)) ([230fc14](https://github.com/ParsePlatform/parse-dashboard/commit/230fc1419db4d4de67c7e591cde415dbbe461c84))
+
+# [4.2.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.3-alpha.1...4.2.0-alpha.1) (2022-07-04)
+
+
+### Bug Fixes
+
+* login fails with error `req.session.regenerate is not a function` ([#2195](https://github.com/ParsePlatform/parse-dashboard/issues/2195)) [skip release] ([31a2b78](https://github.com/ParsePlatform/parse-dashboard/commit/31a2b7813531e370e11b1a050ea28b575a058816))
+
+### Features
+
+* remove support and documentation links ([#2203](https://github.com/ParsePlatform/parse-dashboard/issues/2203)) ([35e4476](https://github.com/ParsePlatform/parse-dashboard/commit/35e44768f65c64a228cb6ea8314aa534c5342f08))
+
+## [4.1.3-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.2...4.1.3-alpha.1) (2022-06-18)
+
+
+### Bug Fixes
+
+* security upgrade semver-regex from 3.1.3 to 3.1.4 ([#2154](https://github.com/ParsePlatform/parse-dashboard/issues/2154)) ([4f9090a](https://github.com/ParsePlatform/parse-dashboard/commit/4f9090ad22460913f7987964ee54f26d348ca254))
+
+## [4.1.2-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.2-alpha.2...4.1.2-alpha.3) (2022-06-04)
+
+
+### Bug Fixes
+
+* security upgrade semver-regex from 3.1.3 to 3.1.4 ([#2154](https://github.com/ParsePlatform/parse-dashboard/issues/2154)) ([4f9090a](https://github.com/ParsePlatform/parse-dashboard/commit/4f9090ad22460913f7987964ee54f26d348ca254))
+
+## [4.1.2-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.2-alpha.1...4.1.2-alpha.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* config options like `--port` or `--config` are ignored ([#2113](https://github.com/ParsePlatform/parse-dashboard/issues/2113)) ([6d70d8a](https://github.com/ParsePlatform/parse-dashboard/commit/6d70d8aa74caf0d9c0d335a99a48347dc412ac4e))
+* preserve previous condition field value on constraint change ([#1969](https://github.com/ParsePlatform/parse-dashboard/issues/1969)) ([f4c3060](https://github.com/ParsePlatform/parse-dashboard/commit/f4c30605f675bd7a681be127b2dfb3fc11f90e32))
+* security upgrade node-fetch from 2.6.5 to 2.6.7 ([#2114](https://github.com/ParsePlatform/parse-dashboard/issues/2114)) ([5423b0d](https://github.com/ParsePlatform/parse-dashboard/commit/5423b0d70cb72081933ed7531a55f49d39f3b92c))
+* upgrade graphiql from 1.8.4 to 1.8.5 ([#2111](https://github.com/ParsePlatform/parse-dashboard/issues/2111)) ([1a50d30](https://github.com/ParsePlatform/parse-dashboard/commit/1a50d30b6b7d769e04c2c8e82d60142dd2e52b70))
+
+### Reverts
+
+* feat: change string filter description ([#2059](https://github.com/ParsePlatform/parse-dashboard/issues/2059)) ([db5d23b](https://github.com/ParsePlatform/parse-dashboard/commit/db5d23bf17f65d0db3e5d0d4ef4ca506d8394fb9))
+
+## [4.1.2-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.1...4.1.2-alpha.1) (2022-05-01)
+
+
+### Bug Fixes
+
+* data export is missing rows when exporting more than 100 rows ([#2087](https://github.com/ParsePlatform/parse-dashboard/issues/2087)) ([a070627](https://github.com/ParsePlatform/parse-dashboard/commit/a070627223a93a05b9784754a65f023278521efe))
+* security upgrade async from 2.6.3 to 2.6.4 ([#2094](https://github.com/ParsePlatform/parse-dashboard/issues/2094)) ([6140ef7](https://github.com/ParsePlatform/parse-dashboard/commit/6140ef78b9444741e64c6e46eb3344bc9fbf61e8))
+* security upgrade cross-fetch from 3.1.4 to 3.1.5 ([#2105](https://github.com/ParsePlatform/parse-dashboard/issues/2105)) ([24ca77f](https://github.com/ParsePlatform/parse-dashboard/commit/24ca77fbce6b580ccaccb9812a8f6dcb53304e67))
+
+## [4.1.1-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.1-alpha.3...4.1.1-alpha.4) (2022-04-28)
+
+
+### Bug Fixes
+
+* security upgrade cross-fetch from 3.1.4 to 3.1.5 ([#2105](https://github.com/ParsePlatform/parse-dashboard/issues/2105)) ([ac2609f](https://github.com/ParsePlatform/parse-dashboard/commit/ac2609f9e9bbf82e61e0b627565cd25969cfd5ba))
+
+## [4.1.1-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.1-alpha.2...4.1.1-alpha.3) (2022-04-15)
+
+
+### Bug Fixes
+
+* data export is missing rows when exporting more than 100 rows ([#2087](https://github.com/ParsePlatform/parse-dashboard/issues/2087)) ([db2d59e](https://github.com/ParsePlatform/parse-dashboard/commit/db2d59e899357e7166b28baabf8639e8078fa759))
+
+## [4.1.1-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.1-alpha.1...4.1.1-alpha.2) (2022-04-15)
+
+
+### Bug Fixes
+
+* security upgrade async from 2.6.3 to 2.6.4 ([#2094](https://github.com/ParsePlatform/parse-dashboard/issues/2094)) ([61e0fb7](https://github.com/ParsePlatform/parse-dashboard/commit/61e0fb729731cb7cfb825cc2775c034f4e211f1a))
+
+## [4.1.1-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.0...4.1.1-alpha.1) (2022-04-04)
+
+
+### Bug Fixes
+
+* security upgrade js-beautify from 1.14.0 to 1.14.1 ([#2077](https://github.com/ParsePlatform/parse-dashboard/issues/2077)) ([e4ea787](https://github.com/ParsePlatform/parse-dashboard/commit/e4ea7879d88173b02d66b1339ba98805255ba82c))
+* security vulnerability bump minimist from 1.2.5 to 1.2.6 ([#2070](https://github.com/ParsePlatform/parse-dashboard/issues/2070)) ([3d0407e](https://github.com/ParsePlatform/parse-dashboard/commit/3d0407ebd75051bbbe6f0a2aba87b26475e901b9))
+
+# [4.1.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.0-alpha.2...4.1.0-alpha.3) (2022-03-30)
+
+
+### Bug Fixes
+
+* security upgrade js-beautify from 1.14.0 to 1.14.1 ([#2077](https://github.com/ParsePlatform/parse-dashboard/issues/2077)) ([74aa7d0](https://github.com/ParsePlatform/parse-dashboard/commit/74aa7d03bebf925f90b92be76925a522c44e1031))
+
 # [4.1.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/4.1.0-alpha.1...4.1.0-alpha.2) (2022-03-24)
 
 

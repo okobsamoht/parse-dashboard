@@ -171,10 +171,11 @@ class Browser extends DashboardView {
       if (this.props.params.appId !== nextProps.params.appId || !this.props.params.className) {
         this.setState({ counts: {} });
         Parse.Object._clearAllState();
+
+        nextProps.schema.dispatch(ActionTypes.FETCH)
+          .then(() => this.handleFetchedSchema());
       }
       this.prefetchData(nextProps, nextContext);
-      nextProps.schema.dispatch(ActionTypes.FETCH)
-      .then(() => this.handleFetchedSchema());
     }
     if (!nextProps.params.className && nextProps.schema.data.get('classes')) {
       this.redirectToFirstClass(nextProps.schema.data.get('classes'), nextContext);
@@ -1261,6 +1262,7 @@ class Browser extends DashboardView {
         objectIds.push(objectId);
       }
       query.containedIn('objectId', objectIds);
+      query.limit(objectIds.length);
     }
 
     const classColumns = this.getClassColumns(className, false);
