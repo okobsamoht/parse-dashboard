@@ -1,3 +1,572 @@
+# [6.0.0-alpha.7](https://github.com/ParsePlatform/parse-dashboard/compare/6.0.0-alpha.6...6.0.0-alpha.7) (2024-05-19)
+
+
+### Features
+
+* Add Cloud Config change history to roll back to previous values ([#2554](https://github.com/ParsePlatform/parse-dashboard/issues/2554)) ([a784129](https://github.com/ParsePlatform/parse-dashboard/commit/a784129dd5f25d6464cdd5d768e296fda4501b42))
+
+# [6.0.0-alpha.6](https://github.com/ParsePlatform/parse-dashboard/compare/6.0.0-alpha.5...6.0.0-alpha.6) (2024-05-15)
+
+
+### Features
+
+* Add filter `starts with` in data browser for fields of type Pointer ([#2553](https://github.com/ParsePlatform/parse-dashboard/issues/2553)) ([0b94ab6](https://github.com/ParsePlatform/parse-dashboard/commit/0b94ab6ced8b338cd3539f8cad37feb4452e1bcc))
+
+# [6.0.0-alpha.5](https://github.com/ParsePlatform/parse-dashboard/compare/6.0.0-alpha.4...6.0.0-alpha.5) (2024-05-15)
+
+
+### Bug Fixes
+
+* Deleting all code in the JS Console editor fills in the default code ([#2558](https://github.com/ParsePlatform/parse-dashboard/issues/2558)) ([4b830ba](https://github.com/ParsePlatform/parse-dashboard/commit/4b830bac8dc6549555eca50e999a3283aff100c7))
+
+# [6.0.0-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/6.0.0-alpha.3...6.0.0-alpha.4) (2024-05-15)
+
+
+### Bug Fixes
+
+* Dashboard scrolls when selecting row in data browser ([#2559](https://github.com/ParsePlatform/parse-dashboard/issues/2559)) ([2aa54a5](https://github.com/ParsePlatform/parse-dashboard/commit/2aa54a5bb1f356a7d4ed5abf3ea42c2e406d5b5a))
+
+# [6.0.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/6.0.0-alpha.2...6.0.0-alpha.3) (2024-04-30)
+
+
+### Features
+
+* Select rows in data browser by clicking and dragging mouse cursor over checkboxes ([#2548](https://github.com/ParsePlatform/parse-dashboard/issues/2548)) ([792ba9e](https://github.com/ParsePlatform/parse-dashboard/commit/792ba9e619224c6101ed21cd36add9fe83c3e348))
+
+# [6.0.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/6.0.0-alpha.1...6.0.0-alpha.2) (2024-04-30)
+
+
+### Bug Fixes
+
+* Class Level Permissions dialog throws error `TypeError: ce.current is null` for newly created class ([#2549](https://github.com/ParsePlatform/parse-dashboard/issues/2549)) ([27ed692](https://github.com/ParsePlatform/parse-dashboard/commit/27ed6920d38bfe6476aaf2cebd4124dc30389959))
+
+# [6.0.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.8...6.0.0-alpha.1) (2024-03-05)
+
+
+### Features
+
+* Add Node 20 support; remove Node 14, 16 support ([#2532](https://github.com/ParsePlatform/parse-dashboard/issues/2532)) ([578a339](https://github.com/ParsePlatform/parse-dashboard/commit/578a339c04990b5ecb3f80d34c690c6d34218bfa))
+* Add Node 20 support; remove Node 14, 16 support ([#2535](https://github.com/ParsePlatform/parse-dashboard/issues/2535)) ([5c90f2d](https://github.com/ParsePlatform/parse-dashboard/commit/5c90f2de1b98a2099453c8f8c0d6817330f7133d))
+
+
+### BREAKING CHANGES
+
+* Removes support for Node 14 and 16 ([5c90f2d](5c90f2d))
+
+# [5.4.0-alpha.8](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.7...5.4.0-alpha.8) (2024-02-29)
+
+
+### Bug Fixes
+
+* Config page fails to load ([#2531](https://github.com/ParsePlatform/parse-dashboard/issues/2531)) ([d721b7c](https://github.com/ParsePlatform/parse-dashboard/commit/d721b7c4f3b98df96a229e60529604b038857d53))
+
+# [5.4.0-alpha.7](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.6...5.4.0-alpha.7) (2024-02-26)
+
+
+### Features
+
+* Add descriptive statistics for number cells in data browser ([#2529](https://github.com/ParsePlatform/parse-dashboard/issues/2529)) ([ead9ec4](https://github.com/ParsePlatform/parse-dashboard/commit/ead9ec4d39abc211540bc76616498533b31001a6))
+
+# [5.4.0-alpha.6](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.5...5.4.0-alpha.6) (2024-02-26)
+
+
+### Bug Fixes
+
+* App metrics for user and installation counts show dash ([#2528](https://github.com/ParsePlatform/parse-dashboard/issues/2528)) ([850d7b3](https://github.com/ParsePlatform/parse-dashboard/commit/850d7b3f20160761a21f68ec398d7207b8226770))
+
+# [5.4.0-alpha.5](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.4...5.4.0-alpha.5) (2024-02-18)
+
+
+### Bug Fixes
+
+* Open pointer in new tab in data browser not working when mount path is not root ([#2527](https://github.com/ParsePlatform/parse-dashboard/issues/2527)) ([2f4081f](https://github.com/ParsePlatform/parse-dashboard/commit/2f4081f217e1c5d906ed8789e09a3377ddc15121))
+
+# [5.4.0-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.3...5.4.0-alpha.4) (2024-02-15)
+
+
+### Bug Fixes
+
+* Data browser redirects to wrong class when changing app ([#2526](https://github.com/ParsePlatform/parse-dashboard/issues/2526)) ([7713f54](https://github.com/ParsePlatform/parse-dashboard/commit/7713f542ef9ef97cbf784fa267f7ea2a51c9472a))
+
+# [5.4.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.2...5.4.0-alpha.3) (2023-12-16)
+
+
+### Bug Fixes
+
+* Dashboard crashes if Parse Server Cloud Function script returns object ([#2516](https://github.com/ParsePlatform/parse-dashboard/issues/2516)) ([5de08f8](https://github.com/ParsePlatform/parse-dashboard/commit/5de08f8f4d67f287a589c70d8b8d36f9f76897cf))
+
+# [5.4.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/5.4.0-alpha.1...5.4.0-alpha.2) (2023-12-16)
+
+
+### Features
+
+* Execute script for selected rows ([#2508](https://github.com/ParsePlatform/parse-dashboard/issues/2508)) ([5d9901e](https://github.com/ParsePlatform/parse-dashboard/commit/5d9901e27b14517f22993ac094bdd7d8fbac401f))
+
+# [5.4.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/5.3.0...5.4.0-alpha.1) (2023-12-02)
+
+
+### Features
+
+* Add refresh indicator to Cloud Config page ([#2505](https://github.com/ParsePlatform/parse-dashboard/issues/2505)) ([a10d1f0](https://github.com/ParsePlatform/parse-dashboard/commit/a10d1f0825688d403206ce7cbacada191dbf5c3b))
+
+# [5.3.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/5.3.0-alpha.1...5.3.0-alpha.2) (2023-10-18)
+
+
+### Features
+
+* Add refresh indicator to Cloud Config page ([#2505](https://github.com/ParsePlatform/parse-dashboard/issues/2505)) ([a10d1f0](https://github.com/ParsePlatform/parse-dashboard/commit/a10d1f0825688d403206ce7cbacada191dbf5c3b))
+
+# [5.3.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0...5.3.0-alpha.1) (2023-09-20)
+
+
+### Bug Fixes
+
+* Adding a file when adding a new row in the data browser doesn't show filename ([#2471](https://github.com/ParsePlatform/parse-dashboard/issues/2471)) ([5bbb94e](https://github.com/ParsePlatform/parse-dashboard/commit/5bbb94e5b5266af5ed770d0241605eb859699831))
+* File extension is hidden in file field when editing object in modal dialog in data browser ([#2472](https://github.com/ParsePlatform/parse-dashboard/issues/2472)) ([8df4e4d](https://github.com/ParsePlatform/parse-dashboard/commit/8df4e4d9abf2ef9e487a48b209f33bedc03b55a3))
+* Incorrect highlight maker position in class list in data browser ([#2490](https://github.com/ParsePlatform/parse-dashboard/issues/2490)) ([8c28d24](https://github.com/ParsePlatform/parse-dashboard/commit/8c28d245cfe5d9558ffd276b9660f73449c4f35a))
+* Pasting location coordinates into field of type `GeoPoint` does not work in data browser ([#2464](https://github.com/ParsePlatform/parse-dashboard/issues/2464)) ([a8ce343](https://github.com/ParsePlatform/parse-dashboard/commit/a8ce3436a4ffe76ccf892965fa21dc2a467e2d14))
+* Selecting a saved filter in data browser also highlights other filters with equal names ([#2466](https://github.com/ParsePlatform/parse-dashboard/issues/2466)) ([35360fe](https://github.com/ParsePlatform/parse-dashboard/commit/35360fec68edbca619075227960062859bb9db2e))
+* Vertical scrollbar in data browser is outside visible area when scrolling horizontally ([#2457](https://github.com/ParsePlatform/parse-dashboard/issues/2457)) ([5acac3f](https://github.com/ParsePlatform/parse-dashboard/commit/5acac3fb5c74cbb24ec96b721d874fbc36096c39))
+
+### Features
+
+* Add Cloud Function execution on Parse Object in data browser ([#2409](https://github.com/ParsePlatform/parse-dashboard/issues/2409)) ([996ce91](https://github.com/ParsePlatform/parse-dashboard/commit/996ce916bfedb92c36deede4c234dde8c0554cbb))
+* Add parameter `selectedField` to script payload to determine which object field was selected when script was invoked ([#2483](https://github.com/ParsePlatform/parse-dashboard/issues/2483)) ([e98d653](https://github.com/ParsePlatform/parse-dashboard/commit/e98d653b96787720dad5310c5af98869e2ac2923))
+* Add refresh button to Cloud Config page ([#2480](https://github.com/ParsePlatform/parse-dashboard/issues/2480)) ([be212b0](https://github.com/ParsePlatform/parse-dashboard/commit/be212b0ad6c777f7c5ee9a74cac0affa63faa1c1))
+* Add security checks page ([#2491](https://github.com/ParsePlatform/parse-dashboard/issues/2491)) ([103b9c6](https://github.com/ParsePlatform/parse-dashboard/commit/103b9c61d152487898062485b40f11ecdac3d2e7))
+* Add support for confirmation dialog before script execution in data browser ([#2481](https://github.com/ParsePlatform/parse-dashboard/issues/2481)) ([64d3913](https://github.com/ParsePlatform/parse-dashboard/commit/64d391320bbdb519af8ff93fe8579315ef48e36e))
+* Add typing with auto-complete to select a filter field in the data browser ([#2463](https://github.com/ParsePlatform/parse-dashboard/issues/2463)) ([257f76b](https://github.com/ParsePlatform/parse-dashboard/commit/257f76bbf8d1e880e3b7b704edee2eebf76451c8))
+* Reopen last opened class when navigating to data browser ([#2468](https://github.com/ParsePlatform/parse-dashboard/issues/2468)) ([3d7148e](https://github.com/ParsePlatform/parse-dashboard/commit/3d7148e75a6e9eaeeb7cbb546885b5916f6025bb))
+
+### Reverts
+
+* fix: Vertical scrollbar in data browser is outside visible area when scrolling horizontally ([#2457](https://github.com/ParsePlatform/parse-dashboard/issues/2457)) ([#2477](https://github.com/ParsePlatform/parse-dashboard/issues/2477)) ([2f1d84e](https://github.com/ParsePlatform/parse-dashboard/commit/2f1d84e41c24507b516b933037807f1061182991))
+
+# [5.2.0-alpha.28](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.27...5.2.0-alpha.28) (2023-08-27)
+
+
+### Features
+
+* Add security checks page ([#2491](https://github.com/ParsePlatform/parse-dashboard/issues/2491)) ([103b9c6](https://github.com/ParsePlatform/parse-dashboard/commit/103b9c61d152487898062485b40f11ecdac3d2e7))
+
+# [5.2.0-alpha.27](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.26...5.2.0-alpha.27) (2023-06-30)
+
+
+### Bug Fixes
+
+* Adding a file when adding a new row in the data browser doesn't show filename ([#2471](https://github.com/ParsePlatform/parse-dashboard/issues/2471)) ([5bbb94e](https://github.com/ParsePlatform/parse-dashboard/commit/5bbb94e5b5266af5ed770d0241605eb859699831))
+
+# [5.2.0-alpha.26](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.25...5.2.0-alpha.26) (2023-06-30)
+
+
+### Bug Fixes
+
+* File extension is hidden in file field when editing object in modal dialog in data browser ([#2472](https://github.com/ParsePlatform/parse-dashboard/issues/2472)) ([8df4e4d](https://github.com/ParsePlatform/parse-dashboard/commit/8df4e4d9abf2ef9e487a48b209f33bedc03b55a3))
+
+# [5.2.0-alpha.25](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.24...5.2.0-alpha.25) (2023-06-29)
+
+
+### Bug Fixes
+
+* Incorrect highlight maker position in class list in data browser ([#2490](https://github.com/ParsePlatform/parse-dashboard/issues/2490)) ([8c28d24](https://github.com/ParsePlatform/parse-dashboard/commit/8c28d245cfe5d9558ffd276b9660f73449c4f35a))
+
+# [5.2.0-alpha.24](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.23...5.2.0-alpha.24) (2023-06-28)
+
+
+### Features
+
+* Add support for confirmation dialog before script execution in data browser ([#2481](https://github.com/ParsePlatform/parse-dashboard/issues/2481)) ([64d3913](https://github.com/ParsePlatform/parse-dashboard/commit/64d391320bbdb519af8ff93fe8579315ef48e36e))
+
+# [5.2.0-alpha.23](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.22...5.2.0-alpha.23) (2023-06-28)
+
+
+### Features
+
+* Add parameter `selectedField` to script payload to determine which object field was selected when script was invoked ([#2483](https://github.com/ParsePlatform/parse-dashboard/issues/2483)) ([e98d653](https://github.com/ParsePlatform/parse-dashboard/commit/e98d653b96787720dad5310c5af98869e2ac2923))
+
+# [5.2.0-alpha.22](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.21...5.2.0-alpha.22) (2023-06-27)
+
+
+### Features
+
+* Add refresh button to Cloud Config page ([#2480](https://github.com/ParsePlatform/parse-dashboard/issues/2480)) ([be212b0](https://github.com/ParsePlatform/parse-dashboard/commit/be212b0ad6c777f7c5ee9a74cac0affa63faa1c1))
+
+# [5.2.0-alpha.21](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.20...5.2.0-alpha.21) (2023-06-24)
+
+
+### Reverts
+
+* fix: Vertical scrollbar in data browser is outside visible area when scrolling horizontally ([#2457](https://github.com/ParsePlatform/parse-dashboard/issues/2457)) ([#2477](https://github.com/ParsePlatform/parse-dashboard/issues/2477)) ([2f1d84e](https://github.com/ParsePlatform/parse-dashboard/commit/2f1d84e41c24507b516b933037807f1061182991))
+
+# [5.2.0-alpha.20](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.19...5.2.0-alpha.20) (2023-06-23)
+
+
+### Bug Fixes
+
+* Selecting a saved filter in data browser also highlights other filters with equal names ([#2466](https://github.com/ParsePlatform/parse-dashboard/issues/2466)) ([35360fe](https://github.com/ParsePlatform/parse-dashboard/commit/35360fec68edbca619075227960062859bb9db2e))
+
+# [5.2.0-alpha.19](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.18...5.2.0-alpha.19) (2023-06-23)
+
+
+### Features
+
+* Add Cloud Function execution on Parse Object in data browser ([#2409](https://github.com/ParsePlatform/parse-dashboard/issues/2409)) ([996ce91](https://github.com/ParsePlatform/parse-dashboard/commit/996ce916bfedb92c36deede4c234dde8c0554cbb))
+
+# [5.2.0-alpha.18](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.17...5.2.0-alpha.18) (2023-06-20)
+
+
+### Bug Fixes
+
+* Pasting location coordinates into field of type `GeoPoint` does not work in data browser ([#2464](https://github.com/ParsePlatform/parse-dashboard/issues/2464)) ([a8ce343](https://github.com/ParsePlatform/parse-dashboard/commit/a8ce3436a4ffe76ccf892965fa21dc2a467e2d14))
+
+# [5.2.0-alpha.17](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.16...5.2.0-alpha.17) (2023-06-19)
+
+
+### Features
+
+* Add typing with auto-complete to select a filter field in the data browser ([#2463](https://github.com/ParsePlatform/parse-dashboard/issues/2463)) ([257f76b](https://github.com/ParsePlatform/parse-dashboard/commit/257f76bbf8d1e880e3b7b704edee2eebf76451c8))
+
+# [5.2.0-alpha.16](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.15...5.2.0-alpha.16) (2023-06-19)
+
+
+### Features
+
+* Reopen last opened class when navigating to data browser ([#2468](https://github.com/ParsePlatform/parse-dashboard/issues/2468)) ([3d7148e](https://github.com/ParsePlatform/parse-dashboard/commit/3d7148e75a6e9eaeeb7cbb546885b5916f6025bb))
+
+# [5.2.0-alpha.15](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.14...5.2.0-alpha.15) (2023-06-11)
+
+
+### Bug Fixes
+
+* Vertical scrollbar in data browser is outside visible area when scrolling horizontally ([#2457](https://github.com/ParsePlatform/parse-dashboard/issues/2457)) ([5acac3f](https://github.com/ParsePlatform/parse-dashboard/commit/5acac3fb5c74cbb24ec96b721d874fbc36096c39))
+
+# [5.2.0-alpha.14](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.13...5.2.0-alpha.14) (2023-06-10)
+
+
+### Bug Fixes
+
+* Hitting backspace key in data browser crashes dashboard ([#2456](https://github.com/ParsePlatform/parse-dashboard/issues/2456)) ([32aeea2](https://github.com/ParsePlatform/parse-dashboard/commit/32aeea244d81404579f55adf25244c11e3a797d1))
+
+# [5.2.0-alpha.13](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.12...5.2.0-alpha.13) (2023-06-10)
+
+
+### Features
+
+* Add export of saved data browser filters via `classPreference` settings ([#2455](https://github.com/ParsePlatform/parse-dashboard/issues/2455)) ([f56f946](https://github.com/ParsePlatform/parse-dashboard/commit/f56f946023c628c96030e9d2d66284c53decd33e))
+
+# [5.2.0-alpha.12](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.11...5.2.0-alpha.12) (2023-06-09)
+
+
+### Features
+
+* Add filter views to save frequently used filters in data browser ([#2404](https://github.com/ParsePlatform/parse-dashboard/issues/2404)) ([a9ec3a9](https://github.com/ParsePlatform/parse-dashboard/commit/a9ec3a915ff354304f382c17e8d5311b2c96d7ff))
+
+# [5.2.0-alpha.11](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.10...5.2.0-alpha.11) (2023-06-08)
+
+
+### Bug Fixes
+
+* Scroll position is preserved when re-opening the same class in data browser via navigation bar ([#2445](https://github.com/ParsePlatform/parse-dashboard/issues/2445)) ([667675c](https://github.com/ParsePlatform/parse-dashboard/commit/667675c031b0483be210a88da3b159f5f815d6fb))
+
+# [5.2.0-alpha.10](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.9...5.2.0-alpha.10) (2023-06-01)
+
+
+### Bug Fixes
+
+* Option missing for Parse Config parameter to require master key ([#2440](https://github.com/ParsePlatform/parse-dashboard/issues/2440)) ([6623369](https://github.com/ParsePlatform/parse-dashboard/commit/66233698b333422f306dc7024949aef2ea028f34))
+
+# [5.2.0-alpha.9](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.8...5.2.0-alpha.9) (2023-05-27)
+
+
+### Bug Fixes
+
+* Dashboard crashes when adding a row with modal in a class that contains a pointer to another class that contains an array of pointers ([#2416](https://github.com/ParsePlatform/parse-dashboard/issues/2416)) ([286269f](https://github.com/ParsePlatform/parse-dashboard/commit/286269f3e2c4e1c83b14003ce72caaf1f39b16c1))
+
+# [5.2.0-alpha.8](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.7...5.2.0-alpha.8) (2023-05-27)
+
+
+### Bug Fixes
+
+* Cannot navigate to nested relation field in data browser ([#2420](https://github.com/ParsePlatform/parse-dashboard/issues/2420)) ([e7ace9e](https://github.com/ParsePlatform/parse-dashboard/commit/e7ace9efa068b92c5cf0e5ccdad169ac7d71e81a))
+
+# [5.2.0-alpha.7](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.6...5.2.0-alpha.7) (2023-05-27)
+
+
+### Bug Fixes
+
+* File uploading status not updating in data browser ([#2422](https://github.com/ParsePlatform/parse-dashboard/issues/2422)) ([e761f97](https://github.com/ParsePlatform/parse-dashboard/commit/e761f9715a8366466c6620994ce698adbbfc48cd))
+
+# [5.2.0-alpha.6](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.5...5.2.0-alpha.6) (2023-05-27)
+
+
+### Bug Fixes
+
+* Text input cursor jumps to first position when writing long text ([#2413](https://github.com/ParsePlatform/parse-dashboard/issues/2413)) ([422ffb2](https://github.com/ParsePlatform/parse-dashboard/commit/422ffb2897bb2664eb47b5aaad5094a8b39431bf))
+
+# [5.2.0-alpha.5](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.4...5.2.0-alpha.5) (2023-05-27)
+
+
+### Bug Fixes
+
+* Back button in data browser disappears after page refresh ([#2421](https://github.com/ParsePlatform/parse-dashboard/issues/2421)) ([6c5f19f](https://github.com/ParsePlatform/parse-dashboard/commit/6c5f19f6ed2cda1f1f0dc59bdaed3ae49f264380))
+
+# [5.2.0-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.3...5.2.0-alpha.4) (2023-05-27)
+
+
+### Bug Fixes
+
+* Incorrect date picker position in data browser filter dialog ([#2425](https://github.com/ParsePlatform/parse-dashboard/issues/2425)) ([b96b48f](https://github.com/ParsePlatform/parse-dashboard/commit/b96b48fdd5ce452783e0887c36231971a1822173))
+
+# [5.2.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.2...5.2.0-alpha.3) (2023-05-27)
+
+
+### Bug Fixes
+
+* Empty table in data browser when navigating back using the "back” button ([#2423](https://github.com/ParsePlatform/parse-dashboard/issues/2423)) ([6f3dab6](https://github.com/ParsePlatform/parse-dashboard/commit/6f3dab60c257c76345235acfd3e43aafadeb84c8))
+
+# [5.2.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/5.2.0-alpha.1...5.2.0-alpha.2) (2023-05-27)
+
+
+### Features
+
+* Add links to users and roles in ACL dialog and handle invalid entries ([#2436](https://github.com/ParsePlatform/parse-dashboard/issues/2436)) ([a20cb8e](https://github.com/ParsePlatform/parse-dashboard/commit/a20cb8e534d3fecd8d337463864b15048772a9a5))
+
+# [5.2.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0...5.2.0-alpha.1) (2023-05-21)
+
+
+### Bug Fixes
+
+* Uncaught error when editing Number field in Edit Row dialog ([#2401](https://github.com/ParsePlatform/parse-dashboard/issues/2401)) ([26bd6fa](https://github.com/ParsePlatform/parse-dashboard/commit/26bd6fa39be1076621856a9c86dcd1307f8f7fdd))
+
+### Features
+
+* Add visual configurator for Parse Dashboard settings ([#2406](https://github.com/ParsePlatform/parse-dashboard/issues/2406)) ([228d839](https://github.com/ParsePlatform/parse-dashboard/commit/228d83903fd8698da7b96a5b74699f3ff2d5dad4))
+* Data types and pointer classes are sorted alphabetically in dialog to add new column ([#2400](https://github.com/ParsePlatform/parse-dashboard/issues/2400)) ([d9d285b](https://github.com/ParsePlatform/parse-dashboard/commit/d9d285b7f90434d3bb138c2c765272498e3f09c3))
+* Sort Cloud Code Jobs alphabetically ([#2402](https://github.com/ParsePlatform/parse-dashboard/issues/2402)) ([77fc372](https://github.com/ParsePlatform/parse-dashboard/commit/77fc372bedb9fb4eca728c1bc076e823c5bc3a2c))
+
+# [5.1.0-alpha.13](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.12...5.1.0-alpha.13) (2023-03-07)
+
+
+### Features
+
+* Sort Cloud Code Jobs alphabetically ([#2402](https://github.com/ParsePlatform/parse-dashboard/issues/2402)) ([77fc372](https://github.com/ParsePlatform/parse-dashboard/commit/77fc372bedb9fb4eca728c1bc076e823c5bc3a2c))
+
+# [5.1.0-alpha.12](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.11...5.1.0-alpha.12) (2023-03-05)
+
+
+### Bug Fixes
+
+* Uncaught error when editing Number field in Edit Row dialog ([#2401](https://github.com/ParsePlatform/parse-dashboard/issues/2401)) ([26bd6fa](https://github.com/ParsePlatform/parse-dashboard/commit/26bd6fa39be1076621856a9c86dcd1307f8f7fdd))
+
+# [5.1.0-alpha.11](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.10...5.1.0-alpha.11) (2023-03-05)
+
+
+### Features
+
+* Data types and pointer classes are sorted alphabetically in dialog to add new column ([#2400](https://github.com/ParsePlatform/parse-dashboard/issues/2400)) ([d9d285b](https://github.com/ParsePlatform/parse-dashboard/commit/d9d285b7f90434d3bb138c2c765272498e3f09c3))
+
+# [5.1.0-alpha.10](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.9...5.1.0-alpha.10) (2023-02-13)
+
+
+### Bug Fixes
+
+* Data browser dialog "No data to display" may be outside of visible area in Safari browser ([#2387](https://github.com/ParsePlatform/parse-dashboard/issues/2387)) ([52bba62](https://github.com/ParsePlatform/parse-dashboard/commit/52bba6246cd05c255ca562dcb32da5b104f9908e))
+
+# [5.1.0-alpha.9](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.8...5.1.0-alpha.9) (2023-02-11)
+
+
+### Bug Fixes
+
+* Screen goes blank when trying to add column of type `Object` or `GeoPoint` ([#2384](https://github.com/ParsePlatform/parse-dashboard/issues/2384)) ([0886386](https://github.com/ParsePlatform/parse-dashboard/commit/08863868b90455116232b2b73a39391ba990c30c))
+
+# [5.1.0-alpha.8](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.7...5.1.0-alpha.8) (2023-01-29)
+
+
+### Bug Fixes
+
+* Internal error message on login with missing credential ([#2370](https://github.com/ParsePlatform/parse-dashboard/issues/2370)) ([9a6a31f](https://github.com/ParsePlatform/parse-dashboard/commit/9a6a31f7d45d1402bfc3a988bef21c4a5bb1b123))
+
+# [5.1.0-alpha.7](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.6...5.1.0-alpha.7) (2023-01-28)
+
+
+### Bug Fixes
+
+* Dashboard may display blank page when selecting an app after login ([#2375](https://github.com/ParsePlatform/parse-dashboard/issues/2375)) ([f399b91](https://github.com/ParsePlatform/parse-dashboard/commit/f399b913490f15a0d3be8dde7242dd0b825fa02e))
+
+# [5.1.0-alpha.6](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.5...5.1.0-alpha.6) (2023-01-25)
+
+
+### Bug Fixes
+
+* Navigation to page fails if user re-login is required ([#2369](https://github.com/ParsePlatform/parse-dashboard/issues/2369)) ([0db6f55](https://github.com/ParsePlatform/parse-dashboard/commit/0db6f5559f9b7bb1f5a282c6182810ca89945032))
+
+# [5.1.0-alpha.5](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.4...5.1.0-alpha.5) (2023-01-25)
+
+
+### Features
+
+* Add export all rows of a class and export in JSON format ([#2361](https://github.com/ParsePlatform/parse-dashboard/issues/2361)) ([9eb36a1](https://github.com/ParsePlatform/parse-dashboard/commit/9eb36a183b8b337960f6e8563ad686958001a22b))
+
+# [5.1.0-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.3...5.1.0-alpha.4) (2023-01-25)
+
+
+### Bug Fixes
+
+* Add dashboard option `cookieSessionMaxAge` to keep user logged in across browser sessions ([#2366](https://github.com/ParsePlatform/parse-dashboard/issues/2366)) ([9ea95fc](https://github.com/ParsePlatform/parse-dashboard/commit/9ea95fc62103b52cf4fac1d1b567334b5298b318))
+
+# [5.1.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.2...5.1.0-alpha.3) (2023-01-20)
+
+
+### Features
+
+* Add schema export ([#2362](https://github.com/ParsePlatform/parse-dashboard/issues/2362)) ([33df049](https://github.com/ParsePlatform/parse-dashboard/commit/33df0495a02c4e77f48b3566032bf5686227cce7))
+
+# [5.1.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/5.1.0-alpha.1...5.1.0-alpha.2) (2023-01-20)
+
+
+### Bug Fixes
+
+* Blank screen shown if server is unreachable; unsupported pages are accessible via direct URLs ([#2363](https://github.com/ParsePlatform/parse-dashboard/issues/2363)) ([9855258](https://github.com/ParsePlatform/parse-dashboard/commit/98552584df4d8d75d65d3e394b4acad522117a96))
+
+# [5.1.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0...5.1.0-alpha.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* Text selection not visible in modal dialog header ([#2340](https://github.com/ParsePlatform/parse-dashboard/issues/2340)) ([fb0e79c](https://github.com/ParsePlatform/parse-dashboard/commit/fb0e79c0837c3acce27524e798e02da667cbc5a3))
+
+### Features
+
+* remove limitation to refresh Cloud Jobs list only after 30 seconds ([#2332](https://github.com/ParsePlatform/parse-dashboard/issues/2332)) ([ad1132f](https://github.com/ParsePlatform/parse-dashboard/commit/ad1132fb13e854a030e769fdf7689f35d363031d))
+
+# [5.0.0-alpha.8](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.7...5.0.0-alpha.8) (2022-10-24)
+
+
+### Bug Fixes
+
+* login fails with error `req.session.regenerate is not a function` ([#2196](https://github.com/ParsePlatform/parse-dashboard/issues/2196)) ([a71848c](https://github.com/ParsePlatform/parse-dashboard/commit/a71848ce44fa19e579f9731bab50a7244ab89b11))
+
+### Features
+
+* remove limitation to refresh Cloud Jobs list only after 30 seconds ([#2332](https://github.com/ParsePlatform/parse-dashboard/issues/2332)) ([ad1132f](https://github.com/ParsePlatform/parse-dashboard/commit/ad1132fb13e854a030e769fdf7689f35d363031d))
+
+# [5.0.0-alpha.7](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.6...5.0.0-alpha.7) (2022-10-17)
+
+
+### Bug Fixes
+
+* using browser navigation backward / forward button clears data browser ([#2317](https://github.com/ParsePlatform/parse-dashboard/issues/2317)) ([7d9b957](https://github.com/ParsePlatform/parse-dashboard/commit/7d9b9575184d7b03fac0e74fa785409af399d314))
+
+# [5.0.0-alpha.6](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.5...5.0.0-alpha.6) (2022-10-15)
+
+
+### Bug Fixes
+
+* raw value of read-only date field in data browser cannot be copied ([#2326](https://github.com/ParsePlatform/parse-dashboard/issues/2326)) ([4af7b98](https://github.com/ParsePlatform/parse-dashboard/commit/4af7b981ec1c8356c33215a49f3757a4005525a1))
+
+# [5.0.0-alpha.5](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.4...5.0.0-alpha.5) (2022-10-15)
+
+
+### Features
+
+* improve distinction between deletion confirmation dialogs ([#2319](https://github.com/ParsePlatform/parse-dashboard/issues/2319)) ([23c12ff](https://github.com/ParsePlatform/parse-dashboard/commit/23c12ffbd49508de5c6e5e6155e6720e9f960fc5))
+
+# [5.0.0-alpha.4](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.3...5.0.0-alpha.4) (2022-10-09)
+
+
+### Features
+
+* keep entered filter value when changing filter operator ([#2313](https://github.com/ParsePlatform/parse-dashboard/issues/2313)) ([d6d38bf](https://github.com/ParsePlatform/parse-dashboard/commit/d6d38bfc2b06360c6a1ecc990f937cd675d1ff39))
+
+# [5.0.0-alpha.3](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.2...5.0.0-alpha.3) (2022-09-27)
+
+
+### Bug Fixes
+
+* minor UI layout issues ([#2270](https://github.com/ParsePlatform/parse-dashboard/issues/2270)) ([51d083b](https://github.com/ParsePlatform/parse-dashboard/commit/51d083b218d1291fc27ee2a5f1727c5f2a1dc7d4))
+
+# [5.0.0-alpha.2](https://github.com/ParsePlatform/parse-dashboard/compare/5.0.0-alpha.1...5.0.0-alpha.2) (2022-09-27)
+
+
+### Bug Fixes
+
+* increase required Node engine version to `>=14.20.1` ([#2281](https://github.com/ParsePlatform/parse-dashboard/issues/2281)) ([50de52b](https://github.com/ParsePlatform/parse-dashboard/commit/50de52b6dddad079224e3c3b21ed16f4df347a33))
+
+# [5.0.0-alpha.1](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.17...5.0.0-alpha.1) (2022-09-27)
+
+
+### Features
+
+* remove Node 12 support ([#2277](https://github.com/ParsePlatform/parse-dashboard/issues/2277)) ([18b0e76](https://github.com/ParsePlatform/parse-dashboard/commit/18b0e76e28938f4cb3eaaed7ba3292fc622a35c7))
+
+
+### BREAKING CHANGES
+
+* This version removes support for Node 12; the new minimum required Node version is 14. ([18b0e76](18b0e76))
+
+# [4.2.0-alpha.17](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.16...4.2.0-alpha.17) (2022-09-21)
+
+
+### Bug Fixes
+
+* view relation dialog requires browser refresh when navigating ([#2275](https://github.com/ParsePlatform/parse-dashboard/issues/2275)) ([d60a8b7](https://github.com/ParsePlatform/parse-dashboard/commit/d60a8b7c1ab6c4c8dd85051d9c1acb05a0a69a59))
+
+# [4.2.0-alpha.16](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.15...4.2.0-alpha.16) (2022-09-21)
+
+
+### Bug Fixes
+
+* file upload dialog in data browser shows multiple times ([#2276](https://github.com/ParsePlatform/parse-dashboard/issues/2276)) ([3927340](https://github.com/ParsePlatform/parse-dashboard/commit/39273403568f7ca13a349cac53fbb6a99d8823cc))
+
+# [4.2.0-alpha.15](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.14...4.2.0-alpha.15) (2022-09-19)
+
+
+### Bug Fixes
+
+* context menu in data browser is not scrollable ([#2271](https://github.com/ParsePlatform/parse-dashboard/issues/2271)) ([6c54bd8](https://github.com/ParsePlatform/parse-dashboard/commit/6c54bd82b872d5efed827c3582b4fb3f0aa24a95))
+
+# [4.2.0-alpha.14](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.13...4.2.0-alpha.14) (2022-09-17)
+
+
+### Features
+
+* show skeleton as loading indicator in data browser while data is loading ([#2273](https://github.com/ParsePlatform/parse-dashboard/issues/2273)) ([059f616](https://github.com/ParsePlatform/parse-dashboard/commit/059f616718006c6f559b0b07a8da641367497d9a))
+
+# [4.2.0-alpha.13](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.12...4.2.0-alpha.13) (2022-09-17)
+
+
+### Features
+
+* add column name to related records ([#2264](https://github.com/ParsePlatform/parse-dashboard/issues/2264)) ([cc82533](https://github.com/ParsePlatform/parse-dashboard/commit/cc82533ae3066daa7b789131a76a409720d45b0b))
+
+# [4.2.0-alpha.12](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.11...4.2.0-alpha.12) (2022-09-14)
+
+
+### Features
+
+* auto-submit one-time password (OTP) after entering ([#2257](https://github.com/ParsePlatform/parse-dashboard/issues/2257)) ([e528705](https://github.com/ParsePlatform/parse-dashboard/commit/e5287054cff3bff368ba4e379eebf05bfb7d8bd5))
+
+# [4.2.0-alpha.11](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.10...4.2.0-alpha.11) (2022-09-13)
+
+
+### Bug Fixes
+
+* column names in data browser menu not left-aligned ([#2263](https://github.com/ParsePlatform/parse-dashboard/issues/2263)) ([fc5673a](https://github.com/ParsePlatform/parse-dashboard/commit/fc5673a0ebbc7b4d51e122dbb71172803513309e))
+
+# [4.2.0-alpha.10](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.9...4.2.0-alpha.10) (2022-09-12)
+
+
+### Features
+
+* add Node 18 support ([#2206](https://github.com/ParsePlatform/parse-dashboard/issues/2206)) ([bc7895a](https://github.com/ParsePlatform/parse-dashboard/commit/bc7895aadacc2cc6b0bbcfe786b73d7b82527e55))
+
+# [4.2.0-alpha.9](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.8...4.2.0-alpha.9) (2022-09-12)
+
+
+### Bug Fixes
+
+* login fails with error `req.session.regenerate is not a function` ([#2260](https://github.com/ParsePlatform/parse-dashboard/issues/2260)) ([1dc2b91](https://github.com/ParsePlatform/parse-dashboard/commit/1dc2b915e16a2038268f886d4c24e7b081ae0531))
+
 # [4.2.0-alpha.8](https://github.com/ParsePlatform/parse-dashboard/compare/4.2.0-alpha.7...4.2.0-alpha.8) (2022-09-08)
 
 
